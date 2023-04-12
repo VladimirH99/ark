@@ -1,0 +1,184 @@
+#team {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team {
+    max-width: 1280px;
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-bottom: 160px;
+}
+
+.personality {
+    width: 305px;
+}
+
+.personality-image {
+    position: relative;
+}
+
+.people {
+    position: relative;
+    height: 258px;
+}
+
+.horse {
+    position: absolute;
+    bottom: -67px;
+    right: 0;
+}
+
+.personality-name .name {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.personality-name .cv {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #270D06A6;
+    margin-bottom: 12px;
+}
+
+.personality-description {
+    width: 100%;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+.personality > img {
+    height: 20px;
+}
+
+.fx-style {
+    display: none;
+}
+
+@media(max-width: 768px) {
+    .pc-style {
+        display: none;
+    }
+
+    .fx-style {
+        display: block;
+        height: 62px;
+        width: 62px;
+    }
+
+    .fx-name {
+        margin-left: 16px;
+    }
+
+    .fx-team {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .team {
+        padding: 0px 24px;
+        margin-top: 48px;
+    }
+
+    .personality {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .personality-name {
+        height: 62px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 12px;
+    }
+
+    .people {
+        height: 217px;
+        margin-right: 24px;
+    }
+
+    .fx-team > img {
+        height: 30px;
+    }
+}
+
+@media(max-width: 700px) {
+    .pc-style {
+        display: none !important;
+    }
+
+    .fx-style {
+        display: block;
+        height: 50px;
+        width: 50px;
+    }
+
+    .fx-name {
+        margin-left: 16px;
+    }
+
+    .fx-team {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .team {
+        width: 384px;
+        padding: 0px 24px;
+        margin-top: 40px;
+        margin-bottom: 120px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .personality {
+        width: 213px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .personality-name .name {
+        font-size: 18px;
+        line-height: 27x;
+    }
+    
+    .personality-name .cv {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .personality-name {
+        height: 62px;
+        display: flex;
+        flex-direction: row;
+        margin: 12px 0px;
+    }
+
+    .personality-description {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .people {
+        height: 217px;
+        margin-right: 24px;
+    }
+
+
+    .fx-team > img {
+        height: 30px;
+    }
+}

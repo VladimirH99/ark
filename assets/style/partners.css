@@ -1,0 +1,96 @@
+#partners {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partners {
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 168px;
+    gap: 50px;
+}
+
+.partners img {
+    height: 48px;
+}
+
+@media(max-width: 768px) {
+    .partners {
+        margin-bottom: 120px;
+        padding: 0px 60px;
+    }
+}
+
+@media(max-width: 700px) {
+    .partners {
+        margin-bottom: 80px;
+        padding: 0px 12px;
+    }
+}
+
+#horses {
+    width: 100%;
+}
+
+#horses > div > div {
+    display: flex;
+    gap: 24px;
+}
+
+.horses_img {
+    height: 250px !important;
+    width: 250px !important;
+}
+
+@media(max-width: 768px) {
+    #horses {
+        gap: 20px;
+    }
+
+    .horses_img {
+        height: 168px;
+        width: 170px;
+    }
+}
+
+@media(max-width: 700px) {
+    #horses {
+        gap: 10px;
+    }
+
+    .horses_img {
+        height: 104px;
+        width: 104px;
+    }
+
+    .footer-title {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+footer {
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    height: 160px;
+    align-items: center;
+    padding: 0px 24px;
+    margin: 0 auto;
+}
+
+.footer-title {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.footer-icon > img:nth-child(1) {
+    margin-right: 30px;
+}
