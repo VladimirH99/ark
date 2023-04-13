@@ -117,7 +117,7 @@
         margin-right: 24px;
     }
 
-    .fx-team > img {
+    .fx-team > a > img {
         height: 30px;
     }
 }

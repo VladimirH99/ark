@@ -22,6 +22,8 @@
 
 @media(max-width: 768px) {
     .partners {
+        width: 100%;
+        flex-direction: column;
         margin-bottom: 120px;
         padding: 0px 60px;
     }
@@ -96,6 +98,6 @@ footer {
     font-weight: 500;
 }
 
-.footer-icon > img:nth-child(1) {
+.footer-icon > a > img:nth-child(1) {
     margin-right: 30px;
 }
