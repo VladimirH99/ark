@@ -87,6 +87,10 @@
     margin-bottom: 160px;
 }
 
+.see>a {
+    padding: 0 5px;
+}
+
 .see a {
     width: 300px;
     font-family: 'CarterOne';
@@ -132,7 +136,7 @@
         height: 600px;
     }
 
-    .group_card-description > div > p:not(:first-of-type) {
+    .group_card-description>div>p:not(:first-of-type) {
         display: none;
     }
 
