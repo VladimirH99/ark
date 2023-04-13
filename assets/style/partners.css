@@ -65,8 +65,13 @@
     }
 
     .horses_img {
-        height: 104px;
-        width: 104px;
+        height: 70px !important;
+        width: 70px !important;
+    }
+
+    .horses_img > img{
+        height: 70px !important;
+        width: 70px !important;
     }
 
     .footer-title {

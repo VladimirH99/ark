@@ -88,6 +88,14 @@
     .team {
         padding: 0px 24px;
         margin-top: 48px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 80px;
+            margin-bottom: 160px;
     }
 
     .personality {
