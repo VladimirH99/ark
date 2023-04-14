@@ -18,6 +18,11 @@
 
 .partners img {
     height: 48px;
+    transition: 0.5s;
+}
+
+.partners img:hover {
+    transform: scale(1.1);
 }
 
 @media(max-width: 768px) {
@@ -40,7 +45,7 @@
     width: 100%;
 }
 
-#horses > div > div {
+#horses>div>div {
     display: flex;
     gap: 24px;
 }
@@ -71,7 +76,7 @@
         width: 70px !important;
     }
 
-    .horses_img > img{
+    .horses_img>img {
         height: 70px !important;
         width: 70px !important;
     }
@@ -98,6 +103,6 @@ footer {
     font-weight: 500;
 }
 
-.footer-icon > a > img:nth-child(1) {
+.footer-icon>a>img:nth-child(1) {
     margin-right: 30px;
 }
